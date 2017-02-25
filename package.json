@@ -10,8 +10,7 @@
   "author": "mdumke",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.14.1",
-    "hbs": "^4.0.1"
+    "express": "^4.14.1"
   },
   "devDependencies": {
     "standard": "^8.6.0"
