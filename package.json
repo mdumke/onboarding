@@ -4,8 +4,16 @@
   "description": "A tiny practice problem to get everybody started.",
   "main": "index.js",
   "scripts": {
-    "test": "standard"
+    "test": "standard",
+    "start": "node index.js"
   },
   "author": "mdumke",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.1",
+    "hbs": "^4.0.1"
+  },
+  "devDependencies": {
+    "standard": "^8.6.0"
+  }
 }
