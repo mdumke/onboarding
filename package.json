@@ -1,0 +1,11 @@
+{
+  "name": "onboarding",
+  "version": "1.0.0",
+  "description": "A tiny practice problem to get everybody started.",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard"
+  },
+  "author": "mdumke",
+  "license": "ISC"
+}
