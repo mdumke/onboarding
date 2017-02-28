@@ -5,10 +5,55 @@
   <title>Welcome Aboard</title>
 
   <style>
-    .wrapper {
-      max-width: 900px;
-      margin: 0 auto;
+    * {
+      margin: 0;
+      padding: 0;
     }
+
+    html {
+      font-size: 16px;
+    }
+
+    body {
+      color: #333;
+    }
+
+    header {
+      margin-bottom: 15px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid #ccc;
+    }
+
+    h1 {
+      color: #3a0b97;
+      margin-bottom: 5px;
+    }
+
+    h2 {
+      font-weight: 300;
+      margin-bottom: 10px;
+      color: #7ba84f;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 5px;
+      font-size: 1.1rem;
+    }
+
+    .wrapper {
+      max-width: 400px;
+      margin: 40px 80px;
+    }
+
+    .crew-member {
+      font-style: italic;
+    }
+
   </style>
 
 </head>
@@ -16,9 +61,25 @@
 
   <div class="wrapper">
 
-    <h1>Ahoi!</h1>
+    <header>
+      <h1>Ahoi!</h1>
 
-  </div>
+      <p class="intro">
+        Welcome aboard. This is our tiny practice app. Make sure your name appears on the list.
+      </p>
+    </header>
+
+    <div class="crew">
+      <h2>Meet the crew</h2>
+
+      <ul>
+
+        <li> <span class="crew-member">Matthias</span> is on board. </li>
+
+      </ul>
+    </div>
+
+  </div> <!-- /wrapper -->
 
 </body>
 </html>
