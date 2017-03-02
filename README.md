@@ -10,7 +10,7 @@ Next things next. With git installed, you can download this repository. Choose a
 ```
 git clone https://github.com/mdumke/onboarding
 ```
-Or maybe you have some ssh-keys on github already? Than get the repo via
+Or maybe you have some ssh-keys on github already? Then get the repo via
 ```
 git clone git@github.com:mdumke/onboarding.git
 ```
