@@ -15,6 +15,7 @@ Or maybe you have some ssh-keys on github already? Then get the repo via
 git clone git@github.com:mdumke/onboarding.git
 ```
 Here and in the following, I will write out the commands you need in order to run git from the terminal. If you're using a GUI-version of git, you can do the same things, and it will probably be even easier, but since the interfaces differ quite a lot, I don't know how to describe what exactly you have to do, so you'll have to play around with your git-tool a bit.
+If you're looking for more information on git, I suggest you give [gitimmersion](http://gitimmersion.com/) a try. It's a nice tutorial on how to work with git.
 
 
 ### 2. Install NodeJS
@@ -38,7 +39,7 @@ Let's say you have git on your computer, and you have downloaded this repository
 ```
 npm install
 ```
-on the command line and wait for about half a minute. That should download everything we need. After that, there will be a new folder called `node_modules` in your project-folder which will be full of other people's code.
+on the command line and wait for about half a minute. That should download everything we need. After that there will be a new folder called `node_modules` in your project-folder which will be full of other people's code.
 
 
 ### 4. Start the Server
