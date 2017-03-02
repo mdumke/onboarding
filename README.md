@@ -10,6 +10,10 @@ Next things next. With git installed, you can download this repository. Choose a
 ```
 git clone https://github.com/mdumke/onboarding
 ```
+Or maybe you have some ssh-keys on github already? Than get the repo via
+```
+git clone git@github.com:mdumke/onboarding.git
+```
 Here and in the following, I will write out the commands you need in order to run git from the terminal. If you're using a GUI-version of git, you can do the same things, and it will probably be even easier, but since the interfaces differ quite a lot, I don't know how to describe what exactly you have to do, so you'll have to play around with your git-tool a bit.
 
 
